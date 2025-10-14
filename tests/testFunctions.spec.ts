@@ -37,10 +37,10 @@ test.describe("Test Functions", () => {
   });
 
   // 8️⃣ only — to run only this test
-  test.only("login with valid credentials", async ({ page }) => {
-    console.log("This test case only run among tests.");
+//  test.only("login with valid credentials", async ({ page }) => {
+  //  console.log("This test case only run among tests.");
     
-  });
+ // });
 
   // 9️⃣ fixme — mark as broken (known issue)
   test.fixme("forgot password link not working", async ({ page }) => {
